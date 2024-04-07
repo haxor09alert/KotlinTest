@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
             KotlinTestTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = Color.Gray) {
-                    Greeting("Meow")
+                    Greeting("Meow Nepal")
                 }
             }
         }
@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-            text = "Ni Hao $name!",
+            text = "Namaste $name!",
             modifier = modifier
     )
 }
